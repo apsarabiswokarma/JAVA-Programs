@@ -1,6 +1,5 @@
 class InvalidvoteException extends InvalidvoteException{
-    public InvalidvoteException( String Msg)
-    {
+    public InvalidvoteException(String Msg){
         super(msg);
 
     }
@@ -10,7 +9,7 @@ class Vote
     String name;
     int age;
 
-    public Vote(String name,int age)throws InvalidvoteException
+    public Vote(String name,int age) throws InvalidvoteException
     {
         if(age<18)
         {
